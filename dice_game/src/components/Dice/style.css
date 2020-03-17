@@ -1,0 +1,17 @@
+.dice{
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 34px;
+    margin-right: -1px;
+    margin-top: -1px;
+    margin-bottom: 4px;
+    margin-left: 5px;
+    padding: 0;
+    text-align: center;
+    width: 34px;
+}

@@ -1,0 +1,49 @@
+.board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+
+input[type=number] {
+    border: none;
+    border-bottom: 2px solid rgb(61, 59, 59);
+    margin-left: 5px;
+  }
+
+.start-button{
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(0, 0, 0);
+    transition-duration: 0.1s;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+  
+.start-button:hover {
+    background-color: rgb(160, 160, 160); 
+    color: white;
+}
+
+.history-button{
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(0, 0, 0);
+    transition-duration: 0.1s;
+    cursor: pointer;
+}
+
+.history-button:hover {
+    background-color: rgb(160, 160, 160); 
+    color: white;
+}
+
+.score{
+    margin-top: 10px;
+}
+
+.history{
+    list-style-type:none;
+    margin-bottom: 3px;
+}
